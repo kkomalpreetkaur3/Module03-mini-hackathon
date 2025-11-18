@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Number Guessing Game</h1>
+    <p class="description">Guess a number between <span id="min">1</span> and <span id="max">100</span>. You have <span id="attempts">7</span> attempts.</p>
+
+    <div class="game">
+      <label for="guessInput">Your guess:</label>
+      <input id="guessInput" type="number" placeholder="Enter a number" />
+      <button id="guessBtn">Guess</button>
+      <button id="resetBtn" class="secondary">Reset</button>
+
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+
+      <div class="history">
+        <h2>Guesses</h2>
+        <ul id="guessesList" aria-live="polite"></ul>
+      </div>
+    </div>
+
+    <footer>
+      <small>Created by: Komalpreet Kaur, Muskan Devgan, Jashandeep Singh — Module 03</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
