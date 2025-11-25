@@ -5,7 +5,7 @@ This project is an interactive Number Guessing Game created for the Module 03 Mi
 
 ## Team Members
 - Komalpreet Kaur
-- Member 2
+- Muskan Devgan
 - Jashandeep Singh
 
 ## Member Contributions
